@@ -1,0 +1,25 @@
+package com.ibm.academia.apirest.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+import com.ibm.academia.apirest.entities.Persona;
+import com.ibm.academia.apirest.repositories.PersonaRepository;
+import com.ibm.academia.apirest.repositories.ProfesorRepository;
+
+@Service
+public interface EmpleadoDAOImpl {
+	
+	@Autowired
+	public EmpleadoDAOImpl(@Qualifier("repositorioEmpleados")PersonaRepository repository) 
+	{
+		super(repository);
+	}
+
+	@Override
+	public Iterable<Persona> findProfesoresByCarrera(String carrera) 
+	{
+		return ((ProfesorRepository)repository).findProfesoresByCarrera(carrera);
+	}
+}

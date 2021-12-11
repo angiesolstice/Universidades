@@ -1,0 +1,7 @@
+package com.ibm.academia.apirest.entities;
+
+import java.io.Serializable;
+
+public class Salario implements Serializable {
+
+}

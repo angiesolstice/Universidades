@@ -1,0 +1,10 @@
+package com.ibm.academia.apirest.entities;
+
+import java.io.Serializable;
+
+public class Salario implements Serializable {
+
+	private Double salario;
+	private static final long serialVersionUID = 6195493876627397318L;
+
+}

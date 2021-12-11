@@ -1,0 +1,8 @@
+package com.ibm.academia.apirest.services;
+
+import com.ibm.academia.apirest.repositories.Persona;
+
+public class ProfesorDAO extends PersonaDAO 
+{
+	public Iterable<Persona> findProfesoresByCarrera(String carrera);
+}

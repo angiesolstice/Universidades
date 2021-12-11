@@ -1,0 +1,10 @@
+package com.ibm.academia.apirest.entities;
+
+import java.io.Serializable;
+
+public class Edad implements Serializable{
+	
+	private Integer edad;
+	
+
+}

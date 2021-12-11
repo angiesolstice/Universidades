@@ -1,0 +1,10 @@
+package com.ibm.academia.apirest.entities;
+
+import java.io.Serializable;
+
+public class Tarjeta implements Serializable{
+	
+		private String tarjeta;
+		private static final long serialVersionUID = 2911762464333103201L;
+
+}

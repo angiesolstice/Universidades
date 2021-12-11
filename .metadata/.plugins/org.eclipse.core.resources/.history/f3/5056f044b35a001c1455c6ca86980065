@@ -1,0 +1,12 @@
+package com.ibm.academia.apirest.entities;
+
+import java.io.Serializable;
+
+public class Edad implements Serializable{
+	
+	
+	
+	private Integer edad;
+	private static final long serialVersionUID = -3609466302982418382L;
+
+}

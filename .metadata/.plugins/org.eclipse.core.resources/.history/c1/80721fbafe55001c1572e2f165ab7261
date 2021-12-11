@@ -1,0 +1,16 @@
+package com.ibm.academia.apirest.repositories;
+
+import org.springframework.stereotype.Repository;
+
+import com.ibm.academia.apirest.entities.Aula;
+import com.ibm.academia.apirest.enums.Pizarron;
+
+
+@Repository
+
+public interface AulaRepository {
+	
+	public Iterable<Aula> FindAulaByTipoPizarron(Pizarron tipoPizarron);
+	
+
+}

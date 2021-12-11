@@ -1,0 +1,28 @@
+package com.ibm.academia.apirest.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+import com.ibm.academia.apirest.entities.Aula;
+import com.ibm.academia.apirest.enums.Pizarron;
+import com.ibm.academia.apirest.repositories.AulaRepository;
+
+
+@Service
+public class AulaDAOImpl implements AulaDAO{
+
+	@Autowired
+	public AulaDAOImpl(@Qualifier("repositorioAulas")AulaRepository repository) 
+	{
+		super(repository);
+	}
+	@Override
+	public Iterable<Aula> FindAulaByTipoPizarron(Pizarron tipoPizarron) {
+		return null;
+	}
+	@Override
+	public Iterable<Aula> FindAulaByNumero(Aula numeroAula) {
+		return null;
+	}
+}

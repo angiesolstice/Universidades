@@ -1,0 +1,7 @@
+package com.ibm.academia.apirest.entities;
+
+public class Edad {
+	
+	private Integer edad;
+
+}

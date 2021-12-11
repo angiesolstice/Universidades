@@ -1,5 +1,0 @@
-package com.ibm.academia.apirest.models.entities;
-
-public class Productos {
-
-}

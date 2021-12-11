@@ -1,5 +1,0 @@
-package com.ibm.academia.apirest.configuration;
-
-public class SpringFoxSwagger {
-
-}

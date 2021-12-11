@@ -1,8 +1,0 @@
-package com.ibm.academia.apirest.entities;
-
-import java.io.Serializable;
-
-public class Pasion implements Serializable
-{
-
-}
